@@ -4,5 +4,6 @@ int main(){
    std::cout << "Введите ваше имя"; //Запрашиваем имя пользователя
    std::string name;
    std::cin >> name;//Запоминаем имя пользователя
-   std::cout << "Hello world from " << name;//Вывод
+   std::cout << "Hello world from " << name;//Выводим 
+   return 0;
 }
